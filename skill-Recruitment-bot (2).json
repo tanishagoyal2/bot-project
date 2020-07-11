@@ -1,0 +1,4902 @@
+{
+  "intents": [
+    {
+      "intent": "confirm",
+      "examples": [
+        {
+          "text": "move further with this"
+        },
+        {
+          "text": "yes"
+        },
+        {
+          "text": "lock this"
+        },
+        {
+          "text": "confirm it"
+        },
+        {
+          "text": "sure"
+        },
+        {
+          "text": "ok"
+        },
+        {
+          "text": "confirmed"
+        },
+        {
+          "text": "yes i am 100% sure"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Can you tell a joke?"
+        },
+        {
+          "text": "Are there jokes?"
+        },
+        {
+          "text": "Another joke"
+        },
+        {
+          "text": "Do you have a joke?"
+        },
+        {
+          "text": "Can you tell me a joke?"
+        },
+        {
+          "text": "Do you have humor?"
+        },
+        {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "Do you like humor?"
+        },
+        {
+          "text": "I want a joke"
+        },
+        {
+          "text": "I am getting bored"
+        },
+        {
+          "text": "I'm bored"
+        },
+        {
+          "text": "Surprise me with something hilarious"
+        },
+        {
+          "text": "One more joke"
+        },
+        {
+          "text": "Tell me something funny"
+        },
+        {
+          "text": "What do you do for fun?"
+        },
+        {
+          "text": "What is your favorite joke?"
+        },
+        {
+          "text": "Tell me a joke"
+        }
+      ],
+      "description": "Request a joke."
+    },
+    {
+      "intent": "Bot_Control_Clarification",
+      "examples": [
+        {
+          "text": "I did not quite understand what you gave me"
+        },
+        {
+          "text": "What are you talking about?"
+        },
+        {
+          "text": "What are you saying?"
+        },
+        {
+          "text": "What are you referring to?"
+        },
+        {
+          "text": "Let's try to say that again more clearly, shall we?"
+        },
+        {
+          "text": "What do you mean?"
+        },
+        {
+          "text": "I need more information"
+        },
+        {
+          "text": "I don't understand"
+        },
+        {
+          "text": "I don't understand what you're saying"
+        },
+        {
+          "text": "I don't get it"
+        },
+        {
+          "text": "I didn't understand that properly"
+        },
+        {
+          "text": "I didn't quite understand what you said"
+        },
+        {
+          "text": "Can you say that again please?"
+        },
+        {
+          "text": "I didn't catch that"
+        },
+        {
+          "text": "Explains"
+        },
+        {
+          "text": "Come again?"
+        },
+        {
+          "text": "What do you mean by that?"
+        }
+      ],
+      "description": "Repeat or clarify last statement."
+    },
+    {
+      "intent": "Bot_Control_Approve_Response",
+      "examples": [
+        {
+          "text": "Very well. Let's do it."
+        },
+        {
+          "text": "That's exactly what I want"
+        },
+        {
+          "text": "That is what I need"
+        },
+        {
+          "text": "That is the proper response."
+        },
+        {
+          "text": "Yeah, that's it!"
+        },
+        {
+          "text": "That is right"
+        },
+        {
+          "text": "That is precisely what I was looking for"
+        },
+        {
+          "text": "Sweet"
+        },
+        {
+          "text": "Sure thing!"
+        },
+        {
+          "text": "Indeed!"
+        },
+        {
+          "text": "I like that"
+        },
+        {
+          "text": "Affirmative. That's what I'm looking for."
+        },
+        {
+          "text": "I agree"
+        },
+        {
+          "text": "Great"
+        },
+        {
+          "text": "Got it"
+        },
+        {
+          "text": "For sure!"
+        },
+        {
+          "text": "All right"
+        },
+        {
+          "text": "Correct"
+        },
+        {
+          "text": "You read my mind"
+        },
+        {
+          "text": "Yes"
+        },
+        {
+          "text": "This is alright"
+        }
+      ],
+      "description": "Acknowledge that the response satisfies a question."
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Am I talking to a Bot?"
+        },
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Are you even real?"
+        },
+        {
+          "text": "Are you human?"
+        },
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "Tell me, are you a human or no?"
+        },
+        {
+          "text": "Is this a computer?"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Am I chatting with a human?"
+        },
+        {
+          "text": "Am I talking to Watson?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
+        }
+      ],
+      "description": "Ask if speaking to a human or a bot."
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "Are you safe on hackers?"
+        },
+        {
+          "text": "Conversation secure?"
+        },
+        {
+          "text": "Customer info secured?"
+        },
+        {
+          "text": "How do I know if my card info is kept safe?"
+        },
+        {
+          "text": "How do I know this chat is not a scam?"
+        },
+        {
+          "text": "How is my credit card info secured?"
+        },
+        {
+          "text": "How safe is my data?"
+        },
+        {
+          "text": "I'd like proof of a secure chat"
+        },
+        {
+          "text": "In what way can I tell if my plastic is safe?"
+        },
+        {
+          "text": "Is my card info secure?"
+        },
+        {
+          "text": "Is my payment information secure?"
+        },
+        {
+          "text": "Is there a reason to distrust this chat?"
+        },
+        {
+          "text": "Is this a trusted chat site?"
+        },
+        {
+          "text": "Is this an official chat?"
+        },
+        {
+          "text": "Is this conversation secure?"
+        },
+        {
+          "text": "Precautions hackers?"
+        },
+        {
+          "text": "Protection hacks?"
+        },
+        {
+          "text": "Secure conversation?"
+        },
+        {
+          "text": "What guards do you have in place to protect your customer's data?"
+        },
+        {
+          "text": "What makes this chat trustworthy?"
+        },
+        {
+          "text": "What safety measures are used to ensure that chat is secure?"
+        },
+        {
+          "text": "Are you safe?"
+        },
+        {
+          "text": "Will my conversation remain secured?"
+        },
+        {
+          "text": "Can I be sure that my stored card details are held securely?"
+        },
+        {
+          "text": "Why would I trust this chat?"
+        },
+        {
+          "text": "Do you have protection against hacks?"
+        }
+      ],
+      "description": "Express concerns about the security of the bot."
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Why are you here?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Can I use another language?"
+        },
+        {
+          "text": "About you"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "Introduce your self"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "appointment_scheduling",
+      "examples": [
+        {
+          "text": "appointment scheduling"
+        },
+        {
+          "text": "Please fix my appointment"
+        },
+        {
+          "text": "start the procedure"
+        },
+        {
+          "text": "search jobs"
+        },
+        {
+          "text": "search job for me"
+        },
+        {
+          "text": "please find a job for me"
+        },
+        {
+          "text": "looking for a job"
+        },
+        {
+          "text": "I need to fix an appointment"
+        },
+        {
+          "text": "i am looking for a job"
+        },
+        {
+          "text": "fix my appointment"
+        }
+      ],
+      "description": "when user says to fix an appointment for him"
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "Ok thank you"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "You've been so helpful :)"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "You are wonderful"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    },
+    {
+      "intent": "Applicant_name",
+      "examples": [
+        {
+          "text": "my name is"
+        },
+        {
+          "text": "You can call me Tanisha goyal"
+        },
+        {
+          "text": "They call me Tanisha goyal"
+        },
+        {
+          "text": "Store my name as Tanisha goyal"
+        },
+        {
+          "text": "Sikha singh"
+        },
+        {
+          "text": "People love to call me Tanisha goyal"
+        },
+        {
+          "text": "My name is Tanisha goyal"
+        },
+        {
+          "text": "My name is Snehal singh"
+        },
+        {
+          "text": "Call me Tanisha goyal"
+        },
+        {
+          "text": "please call me"
+        },
+        {
+          "text": "my name is finish gupta"
+        }
+      ],
+      "description": "takes applicant name"
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "A real agent, please."
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "Yes, take me to a real person"
+        },
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Do not want a robot?"
+        }
+      ],
+      "description": "Request a human agent."
+    },
+    {
+      "intent": "Bot_Control_Start_Over",
+      "examples": [
+        {
+          "text": "I need to reset."
+        },
+        {
+          "text": "We will need to begin again"
+        },
+        {
+          "text": "How can I start over?"
+        },
+        {
+          "text": "Can we please start over?"
+        },
+        {
+          "text": "Begin over!"
+        },
+        {
+          "text": "Please start a new chat"
+        },
+        {
+          "text": "Restart"
+        },
+        {
+          "text": "Back to the top"
+        },
+        {
+          "text": "Back to the beginning"
+        },
+        {
+          "text": "Actually, let's start over"
+        },
+        {
+          "text": "We need a do-over"
+        },
+        {
+          "text": "Start over"
+        },
+        {
+          "text": "Please reset"
+        },
+        {
+          "text": "Please initiate from the beginning"
+        },
+        {
+          "text": "One more time from the beginning"
+        },
+        {
+          "text": "Let's pick this up from the top again."
+        },
+        {
+          "text": "Let's go back to square one"
+        },
+        {
+          "text": "Let us reopen this again."
+        },
+        {
+          "text": "I would like to start all over"
+        },
+        {
+          "text": "I want start from the beginning"
+        }
+      ],
+      "description": "Restart bot or current flow."
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Why are you stupid?"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "You're really irritating"
+        },
+        {
+          "text": "You're too stupid"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "I hate this!"
+        },
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "Hate you"
+        },
+        {
+          "text": "Everyone hates you"
+        },
+        {
+          "text": "Do not like you?"
+        },
+        {
+          "text": "You are having delusions"
+        },
+        {
+          "text": "Stupid"
+        },
+        {
+          "text": "You are on my nerves"
+        },
+        {
+          "text": "Why are you so annoying?"
+        },
+        {
+          "text": "Robots are stupid"
+        },
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "You are very frustrating"
+        }
+      ],
+      "description": "Express unfavorable feedback."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "What is this 4?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    },
+    {
+      "intent": "Bot_Control_Confirm_Presence",
+      "examples": [
+        {
+          "text": "Are you still around?"
+        },
+        {
+          "text": "Are you still here with me?"
+        },
+        {
+          "text": "Are you leaving me?"
+        },
+        {
+          "text": "Anyone there?"
+        },
+        {
+          "text": "Am I talking to someone?"
+        },
+        {
+          "text": "Are you on?"
+        },
+        {
+          "text": "Did you go somewhere?"
+        },
+        {
+          "text": "Did you hear what I said?"
+        },
+        {
+          "text": "Have I lost you?"
+        },
+        {
+          "text": "I am still holding"
+        },
+        {
+          "text": "Is anybody here?"
+        },
+        {
+          "text": "Is anybody home?"
+        },
+        {
+          "text": "Speak to me if you are there."
+        },
+        {
+          "text": "Where'd you go?"
+        },
+        {
+          "text": "You around?"
+        },
+        {
+          "text": "Are you there?"
+        }
+      ],
+      "description": "Ask the bot to indicate that it is available."
+    },
+    {
+      "intent": "Applicant_quali",
+      "examples": [
+        {
+          "text": "I am undergraduate"
+        },
+        {
+          "text": "I am B-tech pass"
+        },
+        {
+          "text": "BCOM"
+        },
+        {
+          "text": "BCA"
+        },
+        {
+          "text": "Store my highest qualification as B-tech"
+        },
+        {
+          "text": "B-Com"
+        },
+        {
+          "text": "B-tech"
+        },
+        {
+          "text": "BBA"
+        },
+        {
+          "text": "degree"
+        },
+        {
+          "text": "graduated"
+        },
+        {
+          "text": "qualification"
+        },
+        {
+          "text": "qualified"
+        },
+        {
+          "text": "My highest qualification is B-tech"
+        },
+        {
+          "text": "I have no degree"
+        },
+        {
+          "text": "I have degree of B-tech"
+        },
+        {
+          "text": "I am post graduated"
+        }
+      ],
+      "description": "qualification defining"
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "Hii"
+        },
+        {
+          "text": "hei"
+        },
+        {
+          "text": "You there"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "Bot_Control_Reject_Response",
+      "examples": [
+        {
+          "text": "Wrong response"
+        },
+        {
+          "text": "Bad response"
+        },
+        {
+          "text": "I disagree"
+        },
+        {
+          "text": "I do not think it is the answer?"
+        },
+        {
+          "text": "I don't need that"
+        },
+        {
+          "text": "I don't want that"
+        },
+        {
+          "text": "I wasn't looking for that"
+        },
+        {
+          "text": "It is not what I want"
+        },
+        {
+          "text": "It is not what I was looking for"
+        },
+        {
+          "text": "No"
+        },
+        {
+          "text": "Not the right response"
+        },
+        {
+          "text": "That answer is incorrect"
+        },
+        {
+          "text": "That is not true"
+        },
+        {
+          "text": "That was not my intent"
+        },
+        {
+          "text": "That was wrong, try again"
+        },
+        {
+          "text": "You did not understand what I said"
+        },
+        {
+          "text": "You didn't understand me"
+        },
+        {
+          "text": "You're misunderstanding me"
+        },
+        {
+          "text": "That sounds like the wrong response"
+        },
+        {
+          "text": "No I'm fine thanks"
+        },
+        {
+          "text": "You did not understand what I asked"
+        }
+      ],
+      "description": "Indicate the bot's response does not address a question."
+    },
+    {
+      "intent": "Bot_Control_Change_Subject",
+      "examples": [
+        {
+          "text": "Let us talk about something else"
+        },
+        {
+          "text": "Talk about something else"
+        },
+        {
+          "text": "Chat about something else"
+        },
+        {
+          "text": "Help me with this other question"
+        },
+        {
+          "text": "Here is another issue"
+        },
+        {
+          "text": "I have one more question"
+        },
+        {
+          "text": "Let us change the topic"
+        },
+        {
+          "text": "Change topic"
+        },
+        {
+          "text": "Can we talk about something else?"
+        },
+        {
+          "text": "Another thing"
+        },
+        {
+          "text": "A different matter"
+        },
+        {
+          "text": "Discuss something else"
+        }
+      ],
+      "description": "Change to a different topic."
+    },
+    {
+      "intent": "Bot_Control_Ignore_Undo",
+      "examples": [
+        {
+          "text": "Cancel"
+        },
+        {
+          "text": "Hold on! I think I want to do it differently."
+        },
+        {
+          "text": "I change my mind."
+        },
+        {
+          "text": "I didn't mean to do that actually, let's go back"
+        },
+        {
+          "text": "I did not mean that?"
+        },
+        {
+          "text": "It's not what I mean"
+        },
+        {
+          "text": "Let us redo that again!"
+        },
+        {
+          "text": "Ignore this"
+        },
+        {
+          "text": "Wait! Let's back up few steps and do that again"
+        },
+        {
+          "text": "Nothing"
+        },
+        {
+          "text": "Not yet"
+        },
+        {
+          "text": "Never"
+        },
+        {
+          "text": "Never mind"
+        },
+        {
+          "text": "Actually, I take that back"
+        }
+      ],
+      "description": "Ask the bot to take one step back."
+    },
+    {
+      "intent": "Bot_Introduction",
+      "examples": [
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "what can you do?"
+        },
+        {
+          "text": "For what you are assigned to me?"
+        },
+        {
+          "text": "what's your name"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "How do you work?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "How do you work"
+        },
+        {
+          "text": "What is your job?"
+        },
+        {
+          "text": "How will you help me?"
+        },
+        {
+          "text": "what can you do for me?"
+        },
+        {
+          "text": "How can i use you?"
+        },
+        {
+          "text": "How will you assist me?"
+        },
+        {
+          "text": "What can i expect from you?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Time to go"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "Catch you later"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "Bot_Control_Standby",
+      "examples": [
+        {
+          "text": "I want stop a moment"
+        },
+        {
+          "text": "Give me a second"
+        },
+        {
+          "text": "Give me a moment"
+        },
+        {
+          "text": "Wait"
+        },
+        {
+          "text": "Be patient with me"
+        },
+        {
+          "text": "Out for a break"
+        },
+        {
+          "text": "Can you give me a moment?"
+        },
+        {
+          "text": "Back again soon"
+        },
+        {
+          "text": "Need a minute here"
+        },
+        {
+          "text": "Can you wait for me?"
+        },
+        {
+          "text": "Let me see"
+        },
+        {
+          "text": "Keep holding"
+        },
+        {
+          "text": "Just hold on"
+        },
+        {
+          "text": "Be back later"
+        },
+        {
+          "text": "Give me a few minutes to get together"
+        },
+        {
+          "text": "Just a sec"
+        },
+        {
+          "text": "In a moment"
+        },
+        {
+          "text": "I would like to put you on hold"
+        },
+        {
+          "text": "I will be back"
+        },
+        {
+          "text": "Hold on"
+        }
+      ],
+      "description": "Indicate a delay in providing input to the bot."
+    },
+    {
+      "intent": "Job_entity",
+      "examples": [
+        {
+          "text": "Web Development"
+        },
+        {
+          "text": "Lock Android"
+        },
+        {
+          "text": "Android will be good for me"
+        },
+        {
+          "text": "I would like to work in Android"
+        },
+        {
+          "text": "I can give my best in Android"
+        },
+        {
+          "text": "I would like to choose Android"
+        },
+        {
+          "text": "I can choose Android"
+        },
+        {
+          "text": "I choose Android"
+        },
+        {
+          "text": "Go for Android"
+        },
+        {
+          "text": "Android will be best for me"
+        },
+        {
+          "text": "Select Android"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Bot_Control_Unsure",
+      "examples": [
+        {
+          "text": "I have no idea, actually"
+        },
+        {
+          "text": "I have no idea what you are looking for"
+        },
+        {
+          "text": "No idea"
+        },
+        {
+          "text": "I don t know what you want"
+        },
+        {
+          "text": "No clue"
+        },
+        {
+          "text": "I m not yet convinced"
+        },
+        {
+          "text": "I m not sure what will make you happy"
+        },
+        {
+          "text": "I m not certain I get what you re saying"
+        },
+        {
+          "text": "I haven't got a clue"
+        },
+        {
+          "text": "To be honest, I m really not sure"
+        },
+        {
+          "text": "You got me"
+        },
+        {
+          "text": "I don t know what you need"
+        }
+      ],
+      "description": "Indicate no definite answer to a question."
+    },
+    {
+      "intent": "company_info",
+      "examples": [
+        {
+          "text": "what is ibm company"
+        },
+        {
+          "text": "tell me about ibm company"
+        },
+        {
+          "text": "tell me about your campany"
+        },
+        {
+          "text": "what is ibm famous for"
+        },
+        {
+          "text": "give me some details about your comapany"
+        }
+      ],
+      "description": "IBM information"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "Correct",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Correct answer",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "last_name",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "jha",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Aggarwal",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "singh",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "soni",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "shetty",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "rawat",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "bhist",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Goyal",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "raj",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "tikoo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "aryan",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "khan",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sidhiqui",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "goel",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "bansal",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sharma",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "kumari",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "kumar",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "yadav",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "Job_B-tech",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "UI designer",
+          "synonyms": [
+            "ui",
+            "ui designer"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Web development",
+          "synonyms": [
+            "web developer"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Java development",
+          "synonyms": [
+            "java"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Android development",
+          "synonyms": [
+            "android"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Software Developer",
+          "synonyms": [
+            "software development"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "location",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Kashmir",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mumbai",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Goa",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Madhya pradesh",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Jammu",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Delhi",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Gujarat",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Uttar pradesh",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Rajasthan",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "job_bsc",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Research analyst",
+          "synonyms": [
+            "analyst",
+            "analyst research"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Technical Writer/Editor",
+          "synonyms": [
+            "technical writer",
+            "editor",
+            "writer",
+            "technical editor"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Clinical Research Manager",
+          "synonyms": [
+            "research manager",
+            "clinical research"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Scientific Assistant",
+          "synonyms": [
+            "assistant scientific"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "job_bca",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Software Developer",
+          "synonyms": [
+            "software developer"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Database Administrator",
+          "synonyms": [
+            "database administrator"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Web Designer",
+          "synonyms": [
+            "web designer"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Software Tester",
+          "synonyms": [
+            "tester",
+            "software tester"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Computer programmer",
+          "synonyms": [
+            "computer programmer"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-currency",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "job_b-com",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Chief Accountant",
+          "synonyms": [
+            "accountant",
+            "chief"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Human Resource Development Management",
+          "synonyms": [
+            "HRD",
+            "Resource development",
+            "human resource development",
+            "development manager",
+            "resource management",
+            "human resource",
+            "HRDM",
+            "human development",
+            "human management"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Legal Adviser",
+          "synonyms": [
+            "legal ",
+            "advisor"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Market Researcher",
+          "synonyms": [
+            "market researcher"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "first_name",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Jyoti",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Koshika",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Kajol",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Himanshu",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ayush",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ayan",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sourav",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "rishabh",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "nitesh",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ritesh",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "tushar",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "neeti",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "neetu",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "kartik",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ashutosh",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sidhi",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "keerti",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "yashi",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tanishk",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tanisha",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Shruti",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Shivam",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sachin",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Rohit",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Rahul",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Prachi",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Nityanand",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mishri",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Manish",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "Qualification",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "BCA",
+          "synonyms": [
+            "BCA",
+            "BBA",
+            "mba",
+            "mca"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "B-tech",
+          "synonyms": [
+            "CSE",
+            "M-tech",
+            "mtech",
+            "btech",
+            "B-TECH"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "B-COM",
+          "synonyms": [
+            "bcom",
+            "B-com",
+            "M-com",
+            "MCOM"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "BSC",
+          "synonyms": [
+            "bsc",
+            "msc"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1590717111791",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1590717111823",
+      "previous_sibling": "handler_9_1590717111823"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1590717111791",
+      "context": {
+        "": "@Qualification:B-tech"
+      },
+      "conditions": "@Qualification:B-tech",
+      "event_name": "input",
+      "dialog_node": "handler_9_1590717111823"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Q2",
+            "options": [
+              {
+                "label": "A.Extensive problem solving behavior",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              },
+              {
+                "label": "B.Routinized buying behavior",
+                "value": {
+                  "input": {
+                    "text": "Correct answer(+1)"
+                  }
+                }
+              },
+              {
+                "label": "C.Variety seeking behavior",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              },
+              {
+                "label": "D.None of the above",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              }
+            ],
+            "description": "While buying milk which kind of behaviour is displayed by a person",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1591103242153",
+      "conditions": "$qualify:B-COM",
+      "dialog_node": "response_1_1591103324321",
+      "previous_sibling": "response_7_1591103264427"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Q2",
+            "options": [
+              {
+                "label": "A.the address of the data is generated by the CPU",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              },
+              {
+                "label": "B.the address of the data is supplied by the users",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              },
+              {
+                "label": "C.there is no need for an address i.e. the data is used as an address ",
+                "value": {
+                  "input": {
+                    "text": "Correct answer(+1)"
+                  }
+                }
+              },
+              {
+                "label": "D.the data are accessed sequentially",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              }
+            ],
+            "description": "Which of the following refers to the associative memory?",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1591103242153",
+      "conditions": "$qualify:BSC",
+      "dialog_node": "response_9_1591105760532",
+      "previous_sibling": "response_1_1591103324321"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Q2",
+            "options": [
+              {
+                "label": "a) The reviewing of test plans",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              },
+              {
+                "label": "b) The analysis of batch programs",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              },
+              {
+                "label": "c) The use of black box testing",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              },
+              {
+                "label": "d) The analysis of program code",
+                "value": {
+                  "input": {
+                    "text": "Correct answer(+1)"
+                  }
+                }
+              }
+            ],
+            "description": "Static analysis can be best described as:",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1591103242153",
+      "conditions": "$qualify:BCA",
+      "dialog_node": "response_3_1591433154835",
+      "previous_sibling": "response_9_1591105760532"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Q2",
+            "options": [
+              {
+                "label": " Get back the memory that was released earlier using dree() funcion",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              },
+              {
+                "label": "Reallocate a file pointer when switching between files",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              },
+              {
+                "label": "Change the size of an array",
+                "value": {
+                  "input": {
+                    "text": "Correct answer(+1)"
+                  }
+                }
+              },
+              {
+                "label": "Change the size of dynamically allocated memory",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              }
+            ],
+            "description": "Realloc () function is used to:",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1591103242153",
+      "conditions": "$qualify:B-tech",
+      "dialog_node": "response_7_1591103264427"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Q3",
+            "options": [
+              {
+                "label": "a. Uncertainty",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              },
+              {
+                "label": "b. Loss",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              },
+              {
+                "label": "c. Both A & B",
+                "value": {
+                  "input": {
+                    "text": "Correct answer(+1)"
+                  }
+                }
+              },
+              {
+                "label": "d. None of the above",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              }
+            ],
+            "description": "Which is the characteristics of Software risk?",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1591105120462",
+      "conditions": "$qualify:BCA",
+      "dialog_node": "response_5_1591433396114",
+      "previous_sibling": "response_3_1591105226140"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Q3",
+            "options": [
+              {
+                "label": "Complicacies of Investment decisions",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              },
+              {
+                "label": "Irreversible in nature",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              },
+              {
+                "label": "Large Investment",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              },
+              {
+                "label": "All of the above",
+                "value": {
+                  "input": {
+                    "text": "Correct answer(+1)"
+                  }
+                }
+              }
+            ],
+            "description": " The significance of capital budgeting arises mainly due to the",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1591105120462",
+      "conditions": "$qualify:B-COM",
+      "dialog_node": "response_3_1591105226140",
+      "previous_sibling": "response_5_1591105138005"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Q3",
+            "options": [
+              {
+                "label": "A.protocol speed",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              },
+              {
+                "label": "B.a fiber speed",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              },
+              {
+                "label": "C.megabits per seconds",
+                "value": {
+                  "input": {
+                    "text": "Correct answer(+1)"
+                  }
+                }
+              },
+              {
+                "label": "D.minimum and maximum server speed",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              }
+            ],
+            "description": "With respect to a network interface card, the term 10/100 refers to",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1591105120462",
+      "conditions": "$qualify:BSC",
+      "dialog_node": "response_4_1591433397906",
+      "previous_sibling": "response_5_1591433396114"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Q3",
+            "options": [
+              {
+                "label": "Deteministic finite automata",
+                "value": {
+                  "input": {
+                    "text": "Correct answer(+1)"
+                  }
+                }
+              },
+              {
+                "label": "Determine file autopath",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              },
+              {
+                "label": "data file auption",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              },
+              {
+                "label": "none of these",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              }
+            ],
+            "description": "What is DFA?",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1591105120462",
+      "conditions": "$qualify:B-tech",
+      "dialog_node": "response_5_1591105138005"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1590692411564",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1590692411588",
+      "previous_sibling": "handler_4_1590692411588"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_9_1590692411564",
+      "event_name": "input",
+      "dialog_node": "handler_4_1590692411588"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1591190746917",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1591190746922",
+      "previous_sibling": "handler_6_1591190746922"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1591190746917",
+      "context": {
+        "lname": "@last_name"
+      },
+      "conditions": "@last_name",
+      "event_name": "input",
+      "dialog_node": "handler_6_1591190746922"
+    },
+    {
+      "type": "slot",
+      "parent": "node_10_1591190321234",
+      "variable": "$lname",
+      "dialog_node": "slot_4_1591190746917",
+      "previous_sibling": "slot_6_1591190730319"
+    },
+    {
+      "type": "slot",
+      "parent": "node_10_1591190321234",
+      "variable": "$fname",
+      "dialog_node": "slot_6_1591190730319"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great you have required qualification to work with us."
+              },
+              {
+                "text": "Now let me check jobs available for you....."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 3,
+            "typing": true,
+            "response_type": "pause"
+          }
+        ]
+      },
+      "parent": "node_1_1590690734956",
+      "context": {
+        "qualify": "@Qualification"
+      },
+      "disabled": true,
+      "dialog_node": "response_1_1590691072938",
+      "previous_sibling": "slot_9_1590692411564"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1590690734956",
+      "dialog_node": "slot_9_1590692411564",
+      "previous_sibling": "node_8_1590692552176"
+    },
+    {
+      "type": "standard",
+      "title": "job options",
+      "parent": "node_1_1590690734956",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_5_1590629927915"
+      },
+      "conditions": "$qualify:B-tech || $qualify:B-COM || $qualify:BSC || $qualify:BCA",
+      "dialog_node": "node_8_1590692552176"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Role:-Not mentioned\nIndustry Type:-Aviation, Aerospace, Aeronautical\nFunctional Area:-Engineering Design, R&D\nEmployment Type:-Full Time, Permanent\nRole Category:-Not mentioned"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_8_1591193834675",
+      "conditions": "@job_bsc:(Scientific Assistant)",
+      "event_name": "filled",
+      "dialog_node": "handler_1_1591272018826",
+      "previous_sibling": "handler_10_1591272017538"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "#Job description\n*Provide therapeutic and scientific content for development of trial protocols\n*Provide medical oversight regarding protocol exemptions, protocol violations, protocol eligibility issues, accepted medications, and general medical-related study issues\n*Address queries from investigators, coordinators, and research monitors\n*Prepare Serious Adverse Event form as per study protocol and the SAE reconciliation plan"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_8_1591193834675",
+      "conditions": "@job_bsc:(Clinical Research Manager)",
+      "event_name": "filled",
+      "dialog_node": "handler_10_1591272017538",
+      "previous_sibling": "handler_5_1591272016191"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "#JOB DESCRIPTION\n*Excellent organisational and research skills\nAnalyse and monitor marketing and sales trends\n*Upgrade and develop the marketing plans\n*Make research on different market conditions\n*To know about customer preferences and to analyse the potential sales of product and service\n*Analyse different methods of marketing and distribution"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_8_1591193834675",
+      "conditions": "@job_bsc:(Research analyst)",
+      "event_name": "filled",
+      "dialog_node": "handler_6_1591272048603",
+      "previous_sibling": "handler_1_1591272018826"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1591193834675",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1591193834682",
+      "previous_sibling": "handler_8_1591193834682"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Responsibilities :\n- Responsible for creating and maintaining easy to understand, well-presented and appropriately illustrated content for the Finxera product technical documentation including API guides, user guides, product release notes and product training material.\n- Create Finxera Release Notes in a timely fashion for use by customers and employees and conduct webinars and presentations as required.\n- Work closely with Product Management, Development, Customer Support and Internal customers to review product functional specifications, QA documentation and test product releases to fully grasp and create product feature documents.\n- Excellent technical writing skills and ability to peer review technical documents for grammar, content and style of writing.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_8_1591193834675",
+      "conditions": "@job_bsc:(Technical Writer/Editor)",
+      "event_name": "filled",
+      "dialog_node": "handler_5_1591272016191",
+      "previous_sibling": "handler_7_1591193834682"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1591193834675",
+      "context": {
+        "job": "@job_bsc"
+      },
+      "conditions": "@job_bsc",
+      "event_name": "input",
+      "dialog_node": "handler_8_1591193834682"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Q5",
+            "options": [
+              {
+                "label": "A.Lean",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              },
+              {
+                "label": "B.Gaunt",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              },
+              {
+                "label": "C.Emaciated",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              },
+              {
+                "label": "D.Obese",
+                "value": {
+                  "input": {
+                    "text": "Correct answer(+1)"
+                  }
+                }
+              }
+            ],
+            "description": "In the following the questions choose the word which best expresses the meaning of the given word. CORPULENT",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1590990957295",
+      "conditions": "$qualify:BSC",
+      "dialog_node": "response_5_1591434436387",
+      "previous_sibling": "response_9_1591434433663"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Q5",
+            "options": [
+              {
+                "label": "a. Analysis",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              },
+              {
+                "label": "b. Formulation",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              },
+              {
+                "label": "c. Interpretation",
+                "value": {
+                  "input": {
+                    "text": "Correct answer(+1)"
+                  }
+                }
+              },
+              {
+                "label": "d. Feedback",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              }
+            ],
+            "description": "The evaluation of metrics resulting in insight and the quality of the representation is ___________ .",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1590990957295",
+      "conditions": "$qualify:BCA",
+      "dialog_node": "response_9_1591434433663",
+      "previous_sibling": "response_8_1591105394694"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Q5",
+            "options": [
+              {
+                "label": "A.Cost and income for managers",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              },
+              {
+                "label": "B.Company's tax liability for a particular year",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              },
+              {
+                "label": "C.Financial conditions of an institutions",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              },
+              {
+                "label": "D.All of the above",
+                "value": {
+                  "input": {
+                    "text": "Correct answer(+1)"
+                  }
+                }
+              }
+            ],
+            "description": " Accounting provides information on",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1590990957295",
+      "conditions": "$qualify:B-COM",
+      "dialog_node": "response_8_1591105394694",
+      "previous_sibling": "response_2_1591105369140"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Q5.",
+            "options": [
+              {
+                "label": "Any available route",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              },
+              {
+                "label": "RIP route",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              },
+              {
+                "label": "Static route",
+                "value": {
+                  "input": {
+                    "text": "Correct answer(+1)"
+                  }
+                }
+              },
+              {
+                "label": "IGRP route",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              }
+            ],
+            "description": "If your routing table has a static, a RIP, and an IGRP route to the same network, which route will be used to route packets by default?",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1590990957295",
+      "conditions": "$qualify:B-tech",
+      "dialog_node": "response_2_1591105369140"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1590716403216",
+      "conditions": "@job_bca:(Software Tester)",
+      "event_name": "filled",
+      "dialog_node": "handler_6_1591264580459",
+      "previous_sibling": "handler_8_1591264543066"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "#Job Requirements\n*Responsibility for the evaluation of database software purchases.\n*Supervision of modifications to any existing database software to meet the needs of company.\n*Must guarantee that data is stored securely and optimally.\nInform end users of changes in databases and train them to utilize systems.\n*Ensure security of company data.\n*Understanding and experience of disaster recovery and database backup procedures."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_5_1590716403216",
+      "conditions": "@job_bca:(Database Administrator)",
+      "event_name": "filled",
+      "dialog_node": "handler_10_1591264541913",
+      "previous_sibling": "handler_6_1591264540651"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Required Web Designer / UI Developer Full Time\nMy Coders believes that Web Designers are artists, who create masterpieces of a website. At My Coders, we provide you creative freedom to embrace your inner efficiency and evolve as an innovative and successful Website Designer. Being hired by us, youll get to work on high end projects that will enrich you professionally and vocationally. We welcome the incredible talents to come, work with us for a certainly brighter future."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_5_1590716403216",
+      "conditions": "@job_bca:(Web Designer)",
+      "event_name": "filled",
+      "dialog_node": "handler_5_1591264538756",
+      "previous_sibling": "handler_4_1590716403226"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Role:Software Developer\nIndustry Type:-IT-Software, Software Services\nFunctional Area:-IT Software - Application Programming, Maintenance\nEmployment Type:-Full Time, Permanent\nRole Category:-Programming & Design"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_5_1590716403216",
+      "conditions": "@job_bca:(Software Developer)",
+      "event_name": "filled",
+      "dialog_node": "handler_8_1591264543066",
+      "previous_sibling": "handler_10_1591264541913"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1590716403216",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1590716403226",
+      "previous_sibling": "handler_8_1590716403226"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Computer Programmer, MS. deg. in CS, Engg, Informatics or related & 2 yrs. experience Posted On : 01/ 10/ 2018 Dev. front- end screens using ASP.Net MVC Web forms, class files for bus. & data access layer using C#. Use JQUERY to perf. front end validations. Use Entity framework obj. to store & retrieve data from SQL database. Impl. ASP.NET security & authentication modes provided by IIS & ASP.Net. Work on UI to integrate the Web APIs W/ Angular JS. Dev. REST web services & use JSON as a data exchange format. Design & consume WCF shared services. Design & dev. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_5_1590716403216",
+      "conditions": "@job_bca:(Computer programmer)",
+      "event_name": "filled",
+      "dialog_node": "handler_6_1591264540651",
+      "previous_sibling": "handler_5_1591264538756"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1590716403216",
+      "context": {
+        "job": "@job_bca"
+      },
+      "conditions": "@job_bca",
+      "event_name": "input",
+      "dialog_node": "handler_8_1590716403226"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Q1",
+            "options": [
+              {
+                "label": "a) Unit, Integration, Acceptance, System",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              },
+              {
+                "label": "b) Unit, System, Integration, Acceptance",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              },
+              {
+                "label": "c) Unit, Integration, System, Acceptance",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              },
+              {
+                "label": "d) It depends on the nature of a project",
+                "value": {
+                  "input": {
+                    "text": "Correct answer(+1)"
+                  }
+                }
+              }
+            ],
+            "description": "The order in which test levels are performed is:",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1590716839067",
+      "conditions": "$qualify:BCA",
+      "dialog_node": "response_3_1591276007987",
+      "previous_sibling": "response_4_1591276006405"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Q1",
+            "options": [
+              {
+                "label": "A.tree",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              },
+              {
+                "label": "B.relational",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              },
+              {
+                "label": "C.network",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              },
+              {
+                "label": "D.chain",
+                "value": {
+                  "input": {
+                    "text": "Correct answer(+1)"
+                  }
+                }
+              },
+              {
+                "label": "E.All of the above",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              }
+            ],
+            "description": "Which of the following is not a logical data-base structure?",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1590716839067",
+      "conditions": "$qualify:BSC",
+      "dialog_node": "response_4_1591276006405",
+      "previous_sibling": "response_3_1591102313554"
+    },
+    {
+      "type": "slot",
+      "parent": "node_5_1590716839067",
+      "variable": "$",
+      "dialog_node": "slot_1_1590717111791",
+      "previous_sibling": "response_3_1591276007987"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Q1",
+            "options": [
+              {
+                "label": "a)Independence,intengibility,inventory and inception",
+                "value": {
+                  "input": {
+                    "text": "Correct answer(+1)"
+                  }
+                }
+              },
+              {
+                "label": "b)Independence,increase,inventory and intangibility",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              },
+              {
+                "label": "c)intengibility,inconsistency,inseperability and inventory",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              },
+              {
+                "label": "d)intangibility,independence,inseperable and inventory",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              }
+            ],
+            "description": "The four unique element to service include:",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1590716839067",
+      "conditions": "$qualify:B-COM",
+      "dialog_node": "response_3_1591102313554",
+      "previous_sibling": "response_7_1591102290598"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Q1",
+            "options": [
+              {
+                "label": " Push ,pop",
+                "value": {
+                  "input": {
+                    "text": "Correct answer (+1)"
+                  }
+                }
+              },
+              {
+                "label": "Push,pop,remove",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              },
+              {
+                "label": "Push,pop, add,remove",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              },
+              {
+                "label": "Push,pop,add,remove,substitute",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              }
+            ],
+            "description": "The full set of operations allowed on a stack are",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1590716839067",
+      "context": {
+        "score": []
+      },
+      "conditions": "$qualify:B-tech",
+      "dialog_node": "response_7_1591102290598"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_5_1590629927915",
+      "variable": "$job",
+      "dialog_node": "slot_8_1591193834675",
+      "previous_sibling": "slot_5_1590716403216"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_5_1590629927915",
+      "variable": "$job",
+      "dialog_node": "slot_5_1590716403216",
+      "previous_sibling": "slot_2_1590633214572"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Good you have selected $job"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_5_1590629927915",
+      "disabled": true,
+      "conditions": "@job_b-com",
+      "dialog_node": "response_8_1590998758850",
+      "previous_sibling": "response_4_1590998495274"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_5_1590629927915",
+      "variable": "$job",
+      "dialog_node": "slot_3_1590631748440",
+      "previous_sibling": "response_8_1590998758850"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_5_1590629927915",
+      "variable": "$job",
+      "dialog_node": "slot_2_1590633214572",
+      "previous_sibling": "slot_3_1590631748440"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good you have selected $job"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1590629927915",
+      "context": {},
+      "disabled": true,
+      "conditions": "@Job_B-tech",
+      "dialog_node": "response_4_1590998495274",
+      "previous_sibling": "handler_10_1591251246079"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Please enter correct job"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_5_1590629927915",
+      "conditions": "true",
+      "event_name": "generic",
+      "dialog_node": "handler_10_1591251246079"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Required Candidate profile:-\n*Should have understanding of Labour Laws and HR Compliances.\n*Experience in Litigation is a must.\n*Knowledge of federal, state and local laws.\n*Strong interpersonal and communication skills.\n*Ability to analyze case law and provide recommendations.\n\n5 to 8 years of corporate law experience.\nMaintaining a professional appearance and providing a positive company image to the public."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_2_1590633214572",
+      "conditions": "@job_b-com:(Legal Adviser)",
+      "event_name": "filled",
+      "dialog_node": "handler_2_1591264101735",
+      "previous_sibling": "handler_2_1591264100643"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1590633214572",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1590633214584",
+      "previous_sibling": "handler_4_1590633214584"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "#Job Responsibilities:\n*Provides actionable overall market and customer insights to address key strategic questions.\n*Responsible for tracking, reporting, and analyzing the performance of marketing activities, ad-hoc analytic requests, and development/automation of regular reports.\n*Analyzes external and internal customer data using database queries (SQL, Access), spreadsheet (Excel) models, web analytics tools (Adobe / Omniture), statistical analysis tools, and campaign management software tools.\n*Evaluates customers' online behavior and provide insights and recommendations for further enhancements to the guest experience."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_2_1590633214572",
+      "conditions": "@job_b-com:(Market Researcher)",
+      "event_name": "filled",
+      "dialog_node": "handler_10_1591264099419",
+      "previous_sibling": "handler_3_1591264086170"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "#Job description\n*Conducting Market research to know the upcoming industrialcommercial area Prospective target market\nRevenue Target achievement\n*Maintaining and increasing sales of our company's products\n*Monitoring competitor's activity\n*Add new ClientArchitectureInterior Designer Etc. to increase width and enhance coverage.\n*Servicing the needs of existing Client customers\n*Preparation of Proposal Quotation, required correspondence with client for drawing BOQcolour shade approval and Project Payment follow up."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_2_1590633214572",
+      "conditions": "@job_b-com:(Human Resource Development Management)",
+      "event_name": "filled",
+      "dialog_node": "handler_3_1591264086170",
+      "previous_sibling": "handler_3_1590633214584"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Role :-Accounts Executive/Accountant\nIndustry Type:-Pharma, Biotech, Clinical Research\nFunctional Area:-Accounts, Finance, Tax, Company Secretary, Audit\nEmployment Type:-Full Time, Permanent\nRole Category:-Accounts"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_2_1590633214572",
+      "conditions": "@job_b-com:(Chief Accountant)",
+      "event_name": "filled",
+      "dialog_node": "handler_2_1591264100643",
+      "previous_sibling": "handler_10_1591264099419"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1590633214572",
+      "context": {
+        "job": "@job_b-com"
+      },
+      "conditions": "@job_b-com",
+      "event_name": "input",
+      "dialog_node": "handler_4_1590633214584"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Q4",
+            "options": [
+              {
+                "label": "A.learning ",
+                "value": {
+                  "input": {
+                    "text": "Correct answer(+1)"
+                  }
+                }
+              },
+              {
+                "label": "B.alternating",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              },
+              {
+                "label": "C.examining",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              },
+              {
+                "label": "D.deciding",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              }
+            ],
+            "description": " Examining of past performance, exploring alternative and planning future is",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1590796889699",
+      "conditions": "$qualify:B-COM",
+      "dialog_node": "response_2_1591105322003",
+      "previous_sibling": "response_1_1591105294297"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Q4",
+            "options": [
+              {
+                "label": "A.15",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              },
+              {
+                "label": "B.16",
+                "value": {
+                  "input": {
+                    "text": "Correct answer(+1)"
+                  }
+                }
+              },
+              {
+                "label": "C.18",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              },
+              {
+                "label": "D.25",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              }
+            ],
+            "description": "The cost price of 20 articles is the same as the selling price of x articles.",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1590796889699",
+      "conditions": "$qualify:BSC",
+      "dialog_node": "response_1_1591433623478",
+      "previous_sibling": "response_2_1591105322003"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Q4",
+            "options": [
+              {
+                "label": "a. User model",
+                "value": {
+                  "input": {
+                    "text": "Correct answer(+1)"
+                  }
+                }
+              },
+              {
+                "label": "b. Requirements model",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              },
+              {
+                "label": "c. Design model",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              },
+              {
+                "label": "d. State model",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              }
+            ],
+            "description": "Which model depicts the profile of the end users of a computer system?",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1590796889699",
+      "conditions": "$qualify:BCA",
+      "dialog_node": "response_6_1591433625119",
+      "previous_sibling": "response_1_1591433623478"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Q4",
+            "options": [
+              {
+                "label": " 1/20",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              },
+              {
+                "label": "3/10",
+                "value": {
+                  "input": {
+                    "text": "Correct answer(+1)"
+                  }
+                }
+              },
+              {
+                "label": " 1/5",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              },
+              {
+                "label": "4/5",
+                "value": {
+                  "input": {
+                    "text": "Wrong answer"
+                  }
+                }
+              }
+            ],
+            "description": "If 6 persons sit around a table, the probability that some specified 3 of them are always together is:",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1590796889699",
+      "conditions": "$qualify:B-tech",
+      "dialog_node": "response_1_1591105294297"
+    },
+    {
+      "type": "standard",
+      "title": "not a required qualification",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry to tell you but we have no jobs available for this qualification.😔😔"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590349257641",
+      "conditions": "true",
+      "dialog_node": "node_3_1590471905278",
+      "previous_sibling": "node_1_1590690734956"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590349257641",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1590471905278"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "response_8_1591517196523",
+      "previous_sibling": "response_9_1591517154077"
+    },
+    {
+      "type": "standard",
+      "title": "Collection of qualification",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great you have required qualification to work with us."
+              },
+              {
+                "text": "Now, let me check jobs available for you....."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          }
+        ]
+      },
+      "parent": "node_10_1590349257641",
+      "context": {
+        "qualify": "@Qualification"
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1590692552176"
+      },
+      "conditions": "@Qualification",
+      "dialog_node": "node_1_1590690734956",
+      "previous_sibling": "response_8_1591517196523"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_10_1590349257641",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1590690734956"
+      },
+      "conditions": "@Qualification",
+      "dialog_node": "response_9_1591517154077"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your final score is $percent"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1591084596363",
+      "context": {
+        "percent": "<? $score.length?>"
+      },
+      "disabled": true,
+      "conditions": "true",
+      "dialog_node": "response_9_1591435094338",
+      "previous_sibling": "response_3_1591435124822"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Congratulation you have passed the test"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1591084596363",
+      "disabled": true,
+      "conditions": "if ($percent>=3)",
+      "dialog_node": "response_3_1591435124822"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "For $qualify we have following available posts"
+              },
+              {
+                "text": "Computer programmer"
+              },
+              {
+                "text": "Database Administrator"
+              },
+              {
+                "text": "Software Developer"
+              },
+              {
+                "text": "Software Tester"
+              },
+              {
+                "text": "Web Designer"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_8_1590692552176",
+      "conditions": "@Qualification:BCA",
+      "dialog_node": "response_3_1590692799992",
+      "previous_sibling": "response_4_1590692661410"
+    },
+    {
+      "type": "standard",
+      "title": "confirm of job",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "OK so let me tell you the procedure to schedule an HR interview for you."
+              },
+              {
+                "text": "I will ask you 5 questions and from those 5 question you must answer at least 3 questions correct. Then I will give you a date and time on which you can go for HR interview. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_8_1590692552176",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1590997035044"
+      },
+      "conditions": "#confirm",
+      "dialog_node": "node_10_1591274379218",
+      "previous_sibling": "node_5_1590629927915"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "For $qualify we have following available posts"
+              },
+              {
+                "text": "Clinical Research Manager"
+              },
+              {
+                "text": "Enumerators"
+              },
+              {
+                "text": "Research analyst"
+              },
+              {
+                "text": "Scientific Assistant"
+              },
+              {
+                "text": "Technical Writer/Editor"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_8_1590692552176",
+      "conditions": "@Qualification:BSC",
+      "dialog_node": "response_10_1591193109696",
+      "previous_sibling": "response_3_1590692799992"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "For $qualify we have following available posts"
+              },
+              {
+                "text": "Android Development"
+              },
+              {
+                "text": "Java Development"
+              },
+              {
+                "text": "Software Development"
+              },
+              {
+                "text": "UI designing"
+              },
+              {
+                "text": "Web development"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_8_1590692552176",
+      "conditions": "@Qualification:B-tech",
+      "dialog_node": "response_6_1590692568437",
+      "previous_sibling": "node_2_1591259656839"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "For $qualify we have following available posts"
+              },
+              {
+                "text": "Chief Accountant"
+              },
+              {
+                "text": "Human Resource Development Management"
+              },
+              {
+                "text": "Legal Adviser"
+              },
+              {
+                "text": "Market Researcher"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_8_1590692552176",
+      "conditions": "@Qualification:B-COM",
+      "dialog_node": "response_4_1590692661410",
+      "previous_sibling": "response_6_1590692568437"
+    },
+    {
+      "type": "standard",
+      "title": "Wrong job input",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please re-enter the available job name"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1590692552176",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1590692552176"
+      },
+      "conditions": "true",
+      "dialog_node": "node_2_1591259656839",
+      "previous_sibling": "node_10_1591274379218"
+    },
+    {
+      "type": "frame",
+      "title": "job selected",
+      "output": {
+        "generic": [
+          {
+            "title": "So would you like to continue with $job job?",
+            "options": [
+              {
+                "label": "yes",
+                "value": {
+                  "input": {
+                    "text": "CONFIRMED"
+                  }
+                }
+              },
+              {
+                "label": "no",
+                "value": {
+                  "input": {
+                    "text": "CANCELLED"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1590692552176",
+      "context": {},
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_10_1591274379218"
+      },
+      "conditions": "@job_b-com || @job_bsc || @Job_B-tech || @job_bca",
+      "dialog_node": "node_5_1590629927915"
+    },
+    {
+      "type": "standard",
+      "title": "score set 2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "your current score is <? $score.length?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1590997035044",
+      "context": {
+        "score": "<? $score.append(1)?>"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1591105120462"
+      },
+      "conditions": "@Correct",
+      "dialog_node": "node_7_1591084365829",
+      "previous_sibling": "node_4_1591103242153"
+    },
+    {
+      "type": "standard",
+      "title": "question 4",
+      "parent": "node_4_1590997035044",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_2_1591084496485"
+      },
+      "conditions": "true",
+      "dialog_node": "node_3_1590796889699",
+      "previous_sibling": "node_6_1591084443076"
+    },
+    {
+      "type": "standard",
+      "title": "score set 3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "your current score is <? $score.length?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1590997035044",
+      "context": {
+        "score": "<? $score.append(1)?>"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1590796889699"
+      },
+      "conditions": "@Correct",
+      "dialog_node": "node_6_1591084443076",
+      "previous_sibling": "node_2_1591105120462"
+    },
+    {
+      "type": "standard",
+      "title": "question 5",
+      "parent": "node_4_1590997035044",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_6_1591084553298"
+      },
+      "conditions": "true",
+      "dialog_node": "node_5_1590990957295",
+      "previous_sibling": "node_2_1591084496485"
+    },
+    {
+      "type": "standard",
+      "title": "score set 5",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your final score is <? $score.length?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1590997035044",
+      "context": {
+        "score": "<? $score.append(1)?>"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_7_1591084596363"
+      },
+      "conditions": "@Correct",
+      "dialog_node": "node_6_1591084553298",
+      "previous_sibling": "node_5_1590990957295"
+    },
+    {
+      "type": "standard",
+      "title": "score set 1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "your current score is <? $score.length?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1590997035044",
+      "context": {
+        "score": "<? $score.append(1)?>"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1591103242153"
+      },
+      "conditions": "@Correct",
+      "dialog_node": "node_6_1591084271961",
+      "previous_sibling": "node_5_1590716839067"
+    },
+    {
+      "type": "standard",
+      "title": "question2",
+      "parent": "node_4_1590997035044",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_7_1591084365829"
+      },
+      "conditions": "true",
+      "dialog_node": "node_4_1591103242153",
+      "previous_sibling": "node_6_1591084271961"
+    },
+    {
+      "type": "standard",
+      "title": "score set 4",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "your current score is <? $score.length?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1590997035044",
+      "context": {
+        "score": "<? $score.append(1)?>"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1590990957295"
+      },
+      "conditions": "@Correct",
+      "dialog_node": "node_2_1591084496485",
+      "previous_sibling": "node_3_1590796889699"
+    },
+    {
+      "type": "standard",
+      "title": "test passed",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Congratulation you have passed the test🥳"
+              },
+              {
+                "text": "your interview is fixed on $date sharp at 11:00 AM"
+              },
+              {
+                "text": "For more details, you can contact Ritik Aggarwal :-9867456789 (HR manager)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_4_1590997035044",
+      "context": {
+        "date": "<? today().plusDays(7) ?>"
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1591440267108"
+      },
+      "conditions": "$score.length>=3",
+      "dialog_node": "node_7_1591084596363",
+      "previous_sibling": "node_6_1591084553298"
+    },
+    {
+      "type": "standard",
+      "title": "question 3",
+      "parent": "node_4_1590997035044",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_6_1591084443076"
+      },
+      "conditions": "true",
+      "dialog_node": "node_2_1591105120462",
+      "previous_sibling": "node_7_1591084365829"
+    },
+    {
+      "type": "standard",
+      "title": "test failed",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "sorry you have failed the test 😔"
+              },
+              {
+                "text": "But don't get disappoint you can give retest after 14 days.😊😉😉"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_4_1590997035044",
+      "conditions": "$score.length<3",
+      "dialog_node": "node_2_1591440267108",
+      "previous_sibling": "node_7_1591084596363"
+    },
+    {
+      "type": "standard",
+      "title": "Question 1",
+      "parent": "node_4_1590997035044",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_6_1591084271961"
+      },
+      "conditions": "true",
+      "dialog_node": "node_5_1590716839067"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1591190730319",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1591190730353",
+      "previous_sibling": "handler_5_1591190730353"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1591190730319",
+      "context": {
+        "fname": "@first_name"
+      },
+      "conditions": "@first_name",
+      "event_name": "input",
+      "dialog_node": "handler_5_1591190730353"
+    },
+    {
+      "type": "standard",
+      "title": "name not found",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You really have a good name.😍😊😊"
+              },
+              {
+                "text": "Please tell me your highest qualification so that I can find suitable jobs for you."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_2_1590690454207",
+      "context": {
+        "name": "<? input.text.substring(0, 1).toUpperCase() + input.text.substring(1) ?>"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_10_1590349257641"
+      },
+      "conditions": "true",
+      "dialog_node": "node_1_1591190437064",
+      "previous_sibling": "node_10_1591190321234"
+    },
+    {
+      "type": "frame",
+      "title": "name is found",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hii $fname  $lname. Pleasure to assist you.😊😊😊"
+              },
+              {
+                "text": "Please tell me your qualification so that I can look for available jobs for you."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_2_1590690454207",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_10_1590349257641"
+      },
+      "conditions": "@first_name",
+      "dialog_node": "node_10_1591190321234"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1590631748440",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1590631748491",
+      "previous_sibling": "handler_1_1590631748491"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What are we looking for\nAppeon PowerBuilder 2017\nSQL Server 2012 or latest version\nStrong Data-window knowledge and extensive hands on implementation\nCreating PowerBuilder Objects like Window, user objects visual and nonvisual, data window, data store, etc\nShould have a strong understanding of OOPs concepts"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_3_1590631748440",
+      "conditions": "@Job_B-tech:(Software Developer)",
+      "event_name": "filled",
+      "dialog_node": "handler_8_1591263772515",
+      "previous_sibling": "handler_2_1591263771660"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Job Description:\n- Hands on experience in IBM Mobile First Platform (MFP) 8.0. The project involves Ionic 3.0 & Angular JS 4.0 framework\n- Both Android and iOS devices need to be covered as part of this development work.\n- The current application is in Antenna platform. So knowledge on this platform is a nice to have.\n- Experience level required: Overall 4 to 6 years (or) higher, with hands on experience on the above technologies."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "slot_3_1590631748440",
+      "conditions": "@Job_B-tech:(Android development)",
+      "event_name": "filled",
+      "dialog_node": "handler_1_1591263642233",
+      "previous_sibling": "handler_2_1590631748491"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Required Web Designer / UI Developer Full Time\nMy Coders believes that Web Designers are artists, who create masterpieces of a website. At My Coders, we provide you creative freedom to embrace your inner efficiency and evolve as an innovative and successful Website Designer. Being hired by us, youll get to work on high end projects that will enrich you professionally and vocationally. We welcome the incredible talents to come, work with us for a certainly brighter future."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_3_1590631748440",
+      "conditions": "@Job_B-tech:(Web development)",
+      "event_name": "filled",
+      "dialog_node": "handler_3_1591263958599",
+      "previous_sibling": "handler_8_1591263772515"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "*Skills Required - User Research, Usability, Heuristic Analysis, User Centered Design, Design Thinking, Ethnographic Research, User Journey Mapping, Wireframes, Prototyping, Problem Definitions, Visual Designs, Design Patterns, Mobile App Designing, Logo Designing .\n*Preferred skills:\nAdvanced skills in JQUERY and Bootstrap.\nPrevious experience in CMS like WordPress, Joomla, Magento and Drupal etc."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_3_1590631748440",
+      "conditions": "@Job_B-tech:(UI designer)",
+      "event_name": "filled",
+      "dialog_node": "handler_2_1591263771660",
+      "previous_sibling": "handler_7_1591263721445"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Required Candidate profile\n\n* Good verbal and written communication skills.\n* Good Knowledge in SDLC Process\n* Good interpersonal skills\n* Looking for short notice candidates (0-30 days)\nSkills :\nCore JAVA, Swing, HornetQ/JMS, Apache, Test Complete automation\n(OR) Java with Microservices\n(OR) Angular, Typescript, NodeJS, C++, DICOM, HL7. Imaging"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_3_1590631748440",
+      "conditions": "@Job_B-tech:(Java development)",
+      "event_name": "filled",
+      "dialog_node": "handler_7_1591263721445",
+      "previous_sibling": "handler_1_1591263642233"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1590631748440",
+      "context": {
+        "job": "@Job_B-tech"
+      },
+      "conditions": "@Job_B-tech",
+      "event_name": "input",
+      "dialog_node": "handler_1_1590631748491"
+    },
+    {
+      "type": "standard",
+      "title": "negative feedback",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oooh! sorry to hear that I disappoint you😥😔😔"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Negative_Feedback",
+      "dialog_node": "node_3_1591521391099",
+      "previous_sibling": "node_3_1591521239483"
+    },
+    {
+      "type": "standard",
+      "title": "company info",
+      "output": {
+        "generic": [
+          {
+            "title": "IBM ",
+            "source": "https://static.toiimg.com/thumb/msid-76845829,width-800,resizemode-4/76845829.jpg",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "International Business Machines Corporation (IBM) is an American multinational technology company headquartered in Armonk, New York, with operations in over 170 countries."
+              },
+              {
+                "text": "IBM produces and sells computer hardware, middleware and software, and provides hosting and consulting services in areas ranging from mainframe computers to nanotechnology."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#company_info",
+      "dialog_node": "node_10_1594399806687",
+      "previous_sibling": "node_4_1590456500234"
+    },
+    {
+      "type": "standard",
+      "title": "collection of name",
+      "output": {
+        "generic": []
+      },
+      "context": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#Applicant_name || @first_name || @last_name",
+      "dialog_node": "node_2_1590690454207",
+      "previous_sibling": "node_5_1591516210576"
+    },
+    {
+      "type": "standard",
+      "title": "Bot information",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "My name is IBM Watson bot. I am here to help you to get scheduled an HR interview for you ."
+              },
+              {
+                "text": "To get an appointment you need to just answer my few questions correctly."
+              },
+              {
+                "text": "Note:-you must score at least 75% to pass this test."
+              },
+              {
+                "text": "Now tell me your full name."
+              },
+              {
+                "text": "Note:-Please give a proper statement like \"My name is ........\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#Bot_Introduction",
+      "dialog_node": "node_4_1590456500234",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Question round",
+      "output": {
+        "generic": [
+          {
+            "time": 5000,
+            "typing": true,
+            "response_type": "pause"
+          }
+        ]
+      },
+      "context": {
+        "score": []
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1590716839067"
+      },
+      "conditions": "",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1590997035044",
+      "previous_sibling": "node_10_1590349257641"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oooh! are you leaving?"
+              },
+              {
+                "text": "But it was great to assist you😉😉"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#General_Ending",
+      "dialog_node": "node_1_1591521604144",
+      "previous_sibling": "node_4_1590997035044"
+    },
+    {
+      "type": "standard",
+      "title": "Qualification",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1590690734956"
+      },
+      "conditions": "#Applicant_quali || @Qualification",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1590349257641",
+      "previous_sibling": "node_2_1590690454207"
+    },
+    {
+      "type": "standard",
+      "title": "bot confirm presence",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Yes ,I am present here."
+              },
+              {
+                "text": "What can I do for you?😀😀"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#Bot_Control_Confirm_Presence",
+      "dialog_node": "node_3_1591519875714",
+      "previous_sibling": "node_1_1590347942823"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing.🤨🤨"
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding.🤨🤨🤨"
+              },
+              {
+                "text": "I didn't get your meaning.🤨🤨🤨"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_1_1591521604144",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Greeting",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello! pleasure to meet you."
+              },
+              {
+                "text": "Aloha! How can I assist you."
+              },
+              {
+                "text": "Hi! Great to see you."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#General_Greetings",
+      "dialog_node": "node_1_1590347942823",
+      "previous_sibling": "node_10_1594399806687"
+    },
+    {
+      "type": "standard",
+      "title": "positive feedback",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am happy that you like my company😍😊😊"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Positive_Feedback",
+      "dialog_node": "node_8_1591521521904",
+      "previous_sibling": "node_3_1591521391099"
+    },
+    {
+      "type": "standard",
+      "title": "start of procedure",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "OK! now tell me your full name😊😊"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_2_1590690454207"
+      },
+      "conditions": "#appointment_scheduling",
+      "dialog_node": "node_5_1591516210576",
+      "previous_sibling": "node_8_1591521521904"
+    },
+    {
+      "type": "standard",
+      "title": "bot control start over",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "OK! as you say. Let's start from beginning"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "#Bot_Control_Start_Over",
+      "dialog_node": "node_3_1591521239483",
+      "previous_sibling": "node_3_1591519875714"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hii! I am Watson ,a virtual assistance for IBM technologies."
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": false
+  },
+  "learning_opt_out": false,
+  "name": "Recruitment bot",
+  "language": "en",
+  "description": ""
+}
